@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include customer_ranking *.css
+recursive-include customer_ranking *.csv
+recursive-include customer_ranking *.html
+recursive-include customer_ranking *.ico
+recursive-include customer_ranking *.js
+recursive-include customer_ranking *.json
+recursive-include customer_ranking *.md
+recursive-include customer_ranking *.png
+recursive-include customer_ranking *.py
+recursive-include customer_ranking *.svg
+recursive-include customer_ranking *.txt
+recursive-exclude customer_ranking *.pyc
